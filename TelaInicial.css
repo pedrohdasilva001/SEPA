@@ -103,19 +103,19 @@ input#password {
 }
 
 .tn3 {
-  position: absolute;
-  left: 55%;
-  transform: translateX(-98%);
+  position: fixed;
+  left: 51%;
+  transform: translateX(-55%);
   z-index: 3;
-  font-size: 1rem;
+  font-size: 12pt;
   color: #43C5EB;
   text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.281);
   text-align: center;
 }
 .tn2 {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-99%);
+  position: fixed;
+  left: 49%;
+  transform: translateX(-90%);
   z-index: 3;
   font-size: 1rem;
   color: #43C5EB;
@@ -130,15 +130,15 @@ input#password {
 }
 
 .tn2 {
-  top: calc(47% + 8px);
+  top: calc(46% + 8px);
 }
 
 .tn3 {
-  top: calc(50% + 150px);
+  top: calc(81% + 1px);
 }
 
 .logo {
-  position: absolute;
+  position: fixed;
   top: 1%;
   left: 0;
   width: 12%;
