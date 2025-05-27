@@ -108,6 +108,8 @@ input#password {
   background-color: #2ca5c9;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.8);
   cursor: pointer;
+  transition: background-color 0.35s ease, color 0.35s ease;
+
 }
 
 .tn3 {

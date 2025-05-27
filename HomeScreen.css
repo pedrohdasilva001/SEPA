@@ -66,7 +66,7 @@ input:focus {
 }
 
 .user {
-    width: 3.6vw;
+    width: 3.0vw;
     height: auto;
     max-height: 7vh;
     z-index: 7;
@@ -82,7 +82,7 @@ input:focus {
     z-index: 7;
     position: fixed;
     top: 6vh;
-    left: 96vw;
+    left: 95.4vw;
 }
 
 .caixa3 {
@@ -112,15 +112,16 @@ input:focus {
     border: none;
     border-radius: 0.5vh;
     padding: 0.5vh 1vw;
+    
 }
 
-.home1 { left: 10vw; background-color: #1ccaff; }
+.home1 { left: 10vw; }
 .home2 { left: 33vw; }
 .home3 { left: 45vw; }
 .home4 { left: 57vw; }
 .home5 { left: 71vw; }
 .home6 { left: 85vw; }
-.home7 { left: 20vw; }
+.home7 { left: 19vw; }
 
 .home1:hover,
 .home2:hover,
@@ -131,6 +132,7 @@ input:focus {
 .home7:hover {
     background-color: #82e0fd;
     cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .threebars {
@@ -141,3 +143,119 @@ input:focus {
     top: 15.5vh;
     left: 1vw;
 }
+
+.textbg4,
+.textbg5,
+.textbg6 {
+    font: 16pt Arial;
+    font-style: italic;
+    position: fixed;
+    bottom: 0.4vw;
+    z-index: 15;
+    padding-left: 0.6vw;
+}
+.textbg1,
+.textbg2,
+.textbg3 {
+    font: 16pt Arial;
+    font-style: italic;
+    position: fixed;
+    bottom: 17.4vw;
+    left: 14vw;
+    z-index: 15;
+}
+.textbg2 {left: 41vw;
+bottom: 18vw;}
+.textbg3 {left: 68.6vw;
+bottom: 18vw;}
+
+.nextbg1,
+.nextbg2,
+.nextbg3,   
+.nextbg4,
+.nextbg5,
+.nextbg6 {
+    height: 3.0vw;
+    width: 16vw;
+    font: 12pt Arial;
+    background-color: #43C5EB;
+    position: fixed;
+    top: 24.0vw;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: white;
+    
+    
+
+}
+.nextbg1 {left: 13.5vw;}
+.nextbg2 {left: 40.5vw;
+width: 15.9vw;}
+.nextbg3 {left: 68vw;
+width: 15.95vw;}
+.nextbg4 {left: 13.5vw;
+top: 41vw;
+}
+.nextbg5 {left: 40.5vw;
+top: 41vw;
+}
+.nextbg6 {left: 68vw;
+top: 41vw;
+}
+.ddhs,
+.ael,
+.aepc,
+.cm,
+.cel,
+.rere {
+    height: 8vw;
+    width: 16vw;
+    z-index: 10;
+    position: fixed;
+    }
+.cel {left:13.5vw;
+top: 16vw;}
+.ael {left: 40.39vw;
+top: 16vw;}
+.cm {left: 68vw;
+top: 16vw;}
+.ddhs {left: 13.5vw;
+top: 33vw;}
+.rere {left:40.5vw;
+top: 33vw;}
+.aepc {left: 68vw;
+top: 33vw;}
+
+.nextbg1:hover,
+.nextbg2:hover,
+.nextbg3:hover,
+.nextbg4:hover,
+.nextbg5:hover,
+.nextbg6:hover {
+    background-color:#dd793b;
+    cursor: pointer;
+}
+.setadireita1,
+.setadireita2,
+.setadireita3,
+.setadireita4,
+.setadireita5,
+.setadireita6 {
+    height: 2vw;
+    width: 2.5vw;
+    z-index: 17;
+    position: fixed;
+    top:24.5vw
+}
+.setadireita1 {left: 26.5vw;}
+.setadireita2 {left: 53.7vw;}
+.setadireita3 {left: 81.2vw;}
+.setadireita4 {left: 26.5vw;
+top: 41.5vw}
+.setadireita5 {left: 53.7vw;
+top: 41.5vw}
+.setadireita6 {left: 81.2vw;
+top: 41.5vw}
+
+
+
+
