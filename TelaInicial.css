@@ -60,7 +60,7 @@ input#password {
   border-radius: 5px;
   border: none;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
-  color: #FFFFFF;
+  color: #fefefe;
   font-size: 16px;
   font-family: sans-serif;
   padding-left: 7px;
@@ -68,6 +68,14 @@ input#password {
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.57); 
+  font-style: italic; 
+  opacity: 1; 
+}
+input:focus {
+  outline: none;
 }
 
 input#email {
@@ -139,8 +147,8 @@ input#password {
 
 .logo {
   position: fixed;
-  top: 1%;
-  left: 0;
+  top: 0.5vw;
+  left: 0.6vw;
   width: 12%;
   height: auto;
   z-index: 5;
