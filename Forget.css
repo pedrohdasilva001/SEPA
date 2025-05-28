@@ -93,7 +93,7 @@ input#password {
   background-color: #43C5EB;
   border-radius: 10px;
   position: absolute;
-  top: calc(50% + 80px);
+  top: calc(49% + 80px);
   left: 50%;
   transform: translateX(-50%);
   border: none;

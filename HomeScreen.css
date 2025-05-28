@@ -1,8 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
+
 
 .caixa {
     height: 15vh;
@@ -121,7 +117,8 @@ input:focus {
 
 .home1 { left: 10vw; }
 .home2 { left: 33vw; }
-.home3 { left: 45vw; }
+.home3 { left: 45vw; 
+    background-color:#2fcfff}
 .home4 { left: 58vw; }
 .home5 { left: 71vw; }
 .home6 { left: 85vw; }
@@ -363,3 +360,4 @@ input:focus {
         height: auto;
     }
 }
+body {background-color: #ffffff;}
