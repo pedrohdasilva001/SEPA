@@ -30,19 +30,19 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 3;
 }
 
 .caixa2 {
-  width: 90%;
+  width: 100%;
   max-width: 440px;
   height: 100px;
   background-color: #43C5EB;
   position: absolute;
-  top: calc(56% - 256px);
+  top: calc(63% - 252px);
   left: 50%;
   transform: translate(-50%, -100%);
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.466);
+  box-shadow: 2px 0.2px 6px rgba(0, 0, 0, 0.466);
   color: #ffffff;
   font-size: 2.0rem;
   display: grid;
@@ -67,7 +67,7 @@ input#password {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 3;
+  z-index: 4;
 }
 input::placeholder {
   color: rgba(255, 255, 255, 0.57); 
@@ -102,7 +102,7 @@ input#password {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  z-index: 3;
+  z-index: 4;
 }
 .tn1:hover {
   background-color: #2ca5c9;
@@ -136,7 +136,7 @@ input#password {
 .tn3:hover {
   text-decoration: underline;
   cursor: pointer;
-  text-decoration-color: #43C5EB; /* mesma cor do texto */
+  text-decoration-color: #43C5EB; 
 }
 
 .tn2 {
@@ -186,6 +186,6 @@ input#password {
     z-index: 10;
     color: #43C5EB;
     position: fixed;
-    top: 13.6vw;
+    top: 13.7vw;
     left: 42.7vw;
 }
