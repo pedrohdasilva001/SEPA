@@ -181,4 +181,11 @@ input#password {
     width: 60px;
   }
 }
-
+.typepass {
+    font: 12pt Arial;
+    z-index: 10;
+    color: #43C5EB;
+    position: fixed;
+    top: 13.6vw;
+    left: 42.7vw;
+}

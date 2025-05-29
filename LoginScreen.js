@@ -3,4 +3,4 @@ function homescreen() {
 }
 function forget() {
     window.location.href = "Forget.html";
-}
+}   
